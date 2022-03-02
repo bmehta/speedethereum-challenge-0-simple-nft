@@ -38,7 +38,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 //
 // Select the network you want to deploy to here:
 //
-const defaultNetwork = 'localhost';
+const defaultNetwork = 'rinkeby';
 
 const getMnemonic = () => {
   try {
@@ -180,7 +180,7 @@ task('mint', 'Mints NFTs to the specified address', async (_, hre) => {
   const { getNamedAccounts } = hre;
 
   // ADDRESS TO MINT TO:
-  const toAddress = '0xE987D57A1466E1Cb19CE9AbC3A01457890409b75';
+  const toAddress = '0x2D1F0aB749d777B4dCdE136c17F208dcc98005B9';
 
   // // // // // // // // // // // // // // // // // //
 
